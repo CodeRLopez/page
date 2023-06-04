@@ -17,7 +17,6 @@ const Header = styled('div')`
 
 const Main = styled('div')`
   flex-grow: 1;
-  padding: 20px;
   background-color: #1f1f1f;
 `;
 
@@ -36,7 +35,6 @@ const Layout = ({ children }) => {
         {children}
       </Main>
       <Footer>
-        Footer
       </Footer>
     </LayoutContainer>
   );
