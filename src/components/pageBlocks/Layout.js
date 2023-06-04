@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -11,7 +12,7 @@ const LayoutContainer = styled('div')`
 
 const Header = styled('div')`
   background-color: #222;
-  padding: 20px;
+  padding: 10px;
 `;
 
 const Main = styled('div')`
@@ -21,35 +22,21 @@ const Main = styled('div')`
 `;
 
 const Footer = styled('div')`
-  background-color: #f2f2f2;
+  background-color: #222;
   padding: 20px;
 `;
 
-const Logo = styled('div')`
-  width: 210px;
-  height: 35px;
-  background-image: url('/static/img/CodeRLopezLogo.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 20px;
-`
-
-// Componente del layout
 const Layout = ({ children }) => {
   return (
     <LayoutContainer>
       <Header>
-        {/* Contenido del header */}
-        <Logo />
+        <Image src={'/static/img/CodeRLopezLogo.png'} alt={''} width={250}  height={40} />
       </Header>
       <Main>
-        {/* Contenido principal */}
         {children}
       </Main>
       <Footer>
-        {/* Contenido del footer */}
-        <p>Footer</p>
+        Footer
       </Footer>
     </LayoutContainer>
   );

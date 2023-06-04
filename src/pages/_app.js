@@ -1,4 +1,4 @@
-import Layout from '@/components/pageBlocks/Header'
+import Layout from '@/components/pageBlocks/Layout'
 import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
