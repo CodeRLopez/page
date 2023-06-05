@@ -6,7 +6,6 @@ const FilledCircle = styled('div')`
   border-radius: 50%;
   position: absolute;
 
-  /* Pseudo-elemento ::before para crear un círculo */
   &::before {
     content: '';
     display: block;
