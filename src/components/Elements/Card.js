@@ -22,7 +22,7 @@ const Card = styled.div`
     background-color: #ed6c545c;
   }
   @media(max-width: 478px) {
-    min-width: 50%;
+    min-width: 80%;
   }
 `;
 

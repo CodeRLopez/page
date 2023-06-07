@@ -41,6 +41,9 @@ const Photo = styled("div")`
     padding-top: 25px;
     padding-left: 0px;
   }
+  @media(max-width: 428px) {
+    width: 100%;
+  }
 `;
 const H4 = styled("h4")`
   color: #d8cfcf;
@@ -48,6 +51,9 @@ const H4 = styled("h4")`
   text-align: justify;
   padding: 0px 100px;
   font-size: 20px;
+  @media(max-width: 768px) {
+    padding: 0px 18px;
+  }
 `;
 const H2 = styled("h2")`
   color: #ed6c54;
@@ -58,6 +64,9 @@ const H2 = styled("h2")`
   font-style: italic;
   @media(max-width: 1200px) {
     margin: 0;
+  }
+  @media(max-width: 768px) {
+    padding: 0px 15px;
   }
 `;
 const BackgroundPhoto = styled(FilledCircle)`
@@ -72,8 +81,8 @@ const BackgroundPhoto = styled(FilledCircle)`
     max-height: 350px;
   }
   @media(max-width: 425px) {
-    max-width: 200px;
-    max-height: 300px;
+    max-width: 80%;
+    max-height: 70%;
   }
 `;
 const StyledTriangle = styled(Triangle)`
@@ -112,6 +121,9 @@ const Name = styled('div')`
     font-weight: 800;
     right: 85%;
   }
+  @media(max-width: 428px) {
+    right: 60%;
+  }
 `
 const LastName = styled(Name)`
  top: 150px;
@@ -119,6 +131,9 @@ const LastName = styled(Name)`
  @media(max-width: 1200px) {
   left: auto;
   right: 80%;
+ }
+ @media(max-width: 428px) {
+  right: 60%;
  }
 `
 const GeometricContainer = styled('div')`
