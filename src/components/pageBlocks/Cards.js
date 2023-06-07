@@ -8,6 +8,7 @@ const CardsContainer = styled('div')`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center
 `
 
 const Cards = () => {
