@@ -176,7 +176,7 @@ export default function Home() {
       </Slider>
       <MainContainer>
         <H2>
-          Technologies I work with
+          Technologies I have worked with
         </H2>
         <Cards />
       </MainContainer>
